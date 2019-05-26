@@ -18,3 +18,6 @@ Data extracted to cover PDNP, adjacent areas incl Ashover and Crich and Alderley
 - OS Ceremonial Counties = "Boundary-line-ceremonial-counties"
 - OS Districts = "district_borough_unitary_region"
 - OS Parishes = "parish_region"
+
+## Other Notes
+The OS BoundaryLine shapefiles use original-precision data. This could be simplified in QGIS to give substantial file size reductions with only minor discrepancies. e.g. using 5m as the threshold for the simplification tool reduces the Parishes shapefile from 2.7M to 750k.
