@@ -19,5 +19,9 @@ Data extracted to cover PDNP, adjacent areas incl Ashover and Crich and Alderley
 - OS Districts = "district_borough_unitary_region"
 - OS Parishes = "parish_region"
 
+OS Parishes also contains some non-civil-parish entries. These appear in "parish_region" without names and have had sensible names added,  e.g. Buxton.
+
 ## Other Notes
 The OS BoundaryLine shapefiles use original-precision data. This could be simplified in QGIS to give substantial file size reductions with only minor discrepancies. e.g. using 5m as the threshold for the simplification tool reduces the Parishes shapefile from 2.7M to 750k.
+
+A layer called "PDMHS Area" has been created from a union of the selected OS Parishes, further subject to some truncation of the urban areas: Sheffield, Huddersfield, Stockport, E Manchester.
