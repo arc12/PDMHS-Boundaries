@@ -21,6 +21,22 @@ Data extracted to cover PDNP, adjacent areas incl Ashover and Crich and Alderley
 
 OS Parishes also contains some non-civil-parish entries. These appear in "parish_region" without names and have had sensible names added,  e.g. Buxton.
 
+## From Cambridge Population and Social Structure
+
+Hundreds are taken from "1831 England and Wales census hundreds and wapentakes GIS shapefile" by Max Satchell, obtained from the UK Data Service. Full citation:
+
+> Satchell, M., Shaw-Taylor, L., Wrigley E.A.,1831 England and Wales census hundreds and wapentakes shapefile (2017). This dataset was created with funding from the ESRC (RES-000-23-1579), the Leverhulme Trust and the British Academy. The Satchell et al dataset derives from an enhanced version of Burton, N., Westwood J., and Carter P., GIS of the ancient parishes of England and Wales, 1500-1850. Colchester, Essex: UK Data Archive (May 2004), SN 4828, which is a GIS version of Kain, R.J.P., and Oliver, R.R., Historic parishes of England and Wales: An electronic map of boundaries before 1850 with a gazetteer and metadata. Colchester, Essex: UK Data Archive, May, 2001. SN 4348.  A description of the dataset can be found in Satchell, M., '1831 England and Wales census hundreds and wapentakes GIS documentation' (2017, 2006) available at:
+> http://www.geog.cam.ac.uk/research/projects/occupations/datasets/documentation.html
+
+
+
+Parishes and Places 1851:
+
+> Satchell, A.E.M., Kitson, P.M.K., Newton, G.H., Shaw-Taylor, L., Wrigley E.A., 1851 England and Wales census parishes, townships and places (2016). This dataset was created with funding from the ESRC (RES-000-23-1579), the Leverhulme Trust and the British Academy. A description of the dataset can be found in Satchell, A.E.M., England and Wales census parishes, townships and places: documentation (2016, 2006) available at:
+> http://www.geog.cam.ac.uk/research/projects/occupations/datasets/documentation.html
+
+
+
 ## Other Notes
 The OS BoundaryLine shapefiles use original-precision data. This could be simplified in QGIS to give substantial file size reductions with only minor discrepancies. e.g. using 5m as the threshold for the simplification tool reduces the Parishes shapefile from 2.7M to 750k.
 
